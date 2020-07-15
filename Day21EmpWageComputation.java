@@ -1,7 +1,6 @@
 
 public class Day21EmpWageComputation{
 
-
 	public static final int isPartTime = 1;
 	public static final int isFullTime = 2;
 	public static final int empRatePerHr=20;
@@ -36,4 +35,5 @@ public class Day21EmpWageComputation{
 
 		System.out.println("Total Emp Wage "+ totalEmpWage);
 	}
+
 }

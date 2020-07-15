@@ -3,7 +3,7 @@ public class Day21EmpWageComputation{
 
 	public static void main(String [] args){
 
-		int randVal = (int) (Math.random()* 2)+1;
+		int randVal = (int) Math.floor(Math.random()* 10)%2;
 
 		if (randVal == 1){
 

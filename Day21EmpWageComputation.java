@@ -46,7 +46,6 @@ public class Day21EmpWageComputation{
 
 	public static void main(String [] args){
 
-
 		UC7Refactor u7 = new UC7Refactor();
 		u7.computeWage();
 

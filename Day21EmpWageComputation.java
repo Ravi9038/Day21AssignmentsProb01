@@ -1,18 +1,15 @@
 
 public class Day21EmpWageComputation{
-
-	public static final int isPartTime = 1;
+  
+  public static final int isPartTime = 1;
 	public static final int isFullTime = 2;
 	public static final int empRatePerHr=20;
-	public static final int numOfWorkingDays=3;
 
 	public static void main(String [] args){
 
 
-	int empHrs = 0;
-	int empWage = 0;
-	int totalEmpWage = 0;
-
+		int empHrs = 0;
+		int empWage = 0;
 
 		int empCheck = (int) Math.floor(Math.random()*10) % 3;
 
@@ -25,11 +22,10 @@ public class Day21EmpWageComputation{
 				empHrs = 8;
 				break;
 
-			default :
-				empHrs = 0;
-		}
-		empWage = empHrs * empRatePerHr;
-		System.out.println("Emp Wage : "+ empWage);
-
-	}
+		  	default :
+			  	empHrs = 0;
+		  }
+		  empWage = empHrs * empRatePerHr;
+		  System.out.println("Emp Wage "+ empWage);
+	  }
 }
